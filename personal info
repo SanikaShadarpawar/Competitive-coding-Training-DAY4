@@ -1,0 +1,7 @@
+def personalinfo(fname,lname):
+  print("first name:",fname)
+  print("last name:",lname)
+  
+fname ="sanika"
+lname="shadarpawar"
+personalinfo(fname,lname)
