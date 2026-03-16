@@ -1,0 +1,4 @@
+def cityname(*city):#tupple
+    print("city name",city)
+
+cityname("mumbai","nagpur","pune","delhi")
