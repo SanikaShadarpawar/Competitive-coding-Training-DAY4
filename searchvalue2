@@ -1,0 +1,9 @@
+def searchvalue(mylist):
+    sum=0
+    for i in range(len(mylist)):
+        sum=sum+mylist[i]
+    return sum
+        
+mylist = [4,2,7,8,5,4,1]
+res = searchvalue(mylist)
+print("sum of array=",res)
